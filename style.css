@@ -1,0 +1,190 @@
+body {
+	background-color: #d1d1d1;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #616161;
+}
+
+#header {
+	margin-left:auto;
+	margin-right:auto;
+	width: 400px;
+	background-color: #ffffff;
+	color: #000000;
+	text-align: center;
+}
+
+#strip {
+	width: 900px;
+	margin: auto;
+	background-color: #808080;
+	color: white;
+	text-align: center;
+}
+
+#container {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ffffff;
+}
+
+.nav {
+	width: 155px;
+	float: left;
+	padding: 25px;
+	top: 0;
+	position: sticky;
+	list-style-type: none;
+	text-align: center;
+	border-right: 2px dashed;
+	box-sizing: border-box;
+	font-size: 16px;
+	background-color: #ffffff;
+	color: #616161;
+}
+
+a:hover {
+	color: #adadad;
+}
+
+.selected {
+	font-weight: bold;
+	color: #000000;
+}
+
+.content {
+	width: 735px;
+	float: right;
+	height: fit-content;
+	background-color: #ffffff;
+	padding:5px;
+	text-align: left;
+	color: #000000;
+}
+
+#pasek {
+	text-align: center;
+}
+
+.pasekfoto {
+	display: inline-block;
+	color: #616161;
+	font-size: 6;
+}
+
+#main-head {
+	text-align: center;
+}
+
+.onas {
+	float: right;
+	width: 340px;
+	padding: 5px;
+}
+
+.bignews {
+	float: left;
+	color: #616161;
+	font-size: 12;
+}
+
+#main-body{
+	width:735px;
+	height: fit-content;
+}
+
+#news-column{
+	float: left;
+}
+
+#gigs-column{
+	float: right;
+}
+
+.news {
+	padding-left: 10px;
+	border-top: 1px dotted;
+	border-color: #000;
+	width: 400px;
+	text-align: left;
+	font-size: 14px;
+	clear: both;
+}
+
+.zdjnews {
+	float: left;
+	padding-right: 10px;
+}
+
+.newsdata {
+	float: right;
+	font-weight: italic;
+	font-size: 10px;
+	clear: both;
+}
+
+.gig {
+	border-top: 2px dashed;
+	width: 250px;
+	text-align: center;
+	color: #616161;
+	padding: 10px;
+}
+
+
+#copyright {
+	width: 900px;
+	margin: auto;
+	background-color: #808080;
+	color: #ffffff;
+	clear: both;
+	text-align: center;
+}
+
+<! TERAZ SĄ DIVY DLA MERCHU>
+
+#merch-all{
+	text-align:center;
+	display:inline-block;
+}
+
+.merch-tile{
+	display: inline-block;
+	width:120px;
+	font-size:12px;
+	text-align:center;
+}
+
+<! DYSKOGRAFIA>
+
+#dyskografiaALL{
+	display: inline-block;
+	text-align:center;
+}
+
+.dyskografia-plyta{
+	display: inline-block;
+	width:340px;
+	text-align:center;
+	padding: 10px;
+}
+
+<! TWORCY>
+
+#tworcy{
+	
+}
+
+.tworcy-lista{
+	width:320px;
+	float:left;
+}
+
+.tworcy-foty{
+	width:320px;
+	float:right;
+}
